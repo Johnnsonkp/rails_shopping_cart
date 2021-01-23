@@ -1,0 +1,24 @@
+<%= render 'items/header'%>
+
+<section id="new-page">
+
+    <div class="showcase">
+        <div class="img"></div>
+    </div>
+
+    <div class="container">
+        <h1>Add item</h1>
+
+        <div class="form">
+            <%= render 'form', item: @item %>
+        </div>
+
+        <div class="back-btn">
+            <%= link_to 'Back', items_path %>
+        <div>
+    </div>
+    
+
+</section>
+
+

@@ -14,3 +14,16 @@
  *= require_self
  */
  /* *= bulma-extensions */
+
+ $link: #444;
+ $link-hover: #222;
+
+ @import "bulma";
+ /* body{
+     margin: 0;
+     overflow: hidden;
+ }
+ *{
+     margin: 0;
+     overflow: hidden;
+ } */
