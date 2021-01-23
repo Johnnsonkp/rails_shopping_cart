@@ -8,7 +8,9 @@ class Item < ApplicationRecord
     validates :title, length: {maximum: 140, too_long: "%{count} characters is the maximum aloud. "}
     validates :price, numericality: {only_integer: true}, length: { maximum: 7}
 
-    BRAND = %w{ Nike Addidas TommyHilfiger Puma Zara }
-    CONDITION = %w{ New Used}
+    BRAND = %w{ Other Nike Addidas TommyHilfiger Puma Zara }
+    CONDITION = %w{ Other New Used}
+    SIZE = %w{Other Small Meduim Large Xlarge}
+    COLOR = %w{Other Black White Green Red Blue Pink Orange Yellow Purple}
 
 end
