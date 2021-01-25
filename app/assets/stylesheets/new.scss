@@ -13,16 +13,122 @@
     
 }
 #new-page .container{
-    width: 90%;
-    margin: auto;
+    width: 55%;
+    height: 570px;
+    padding-bottom: 0;
+    padding-left: 5%;
+    // margin: auto;
     display: flex;
     flex-direction: column;
+    border-right: solid 5px black;
+    
+    
 }
 #new-page h1{
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 40px;
 }
+#forms {
+    // border: solid 1px black;
+    width: 95%;
+    height: 99%;
+    padding-bottom: 10px;
+}
+#forms .form-inputs{
+    // height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+} 
+#forms .inline{
+    // border: solid 1px black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#forms .label{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#forms .title{
+    flex: 0.7;
+    padding: 10px;
+    padding-left: 0;
+}
+#forms .title .input{
+    width: 95%;
+    height: 1.4rem;
+}
+#forms .price{
+    flex: 0.4;
+    padding: 10px;
+}
+#forms .price .input {
+    height: 1.4rem;
+    width: 59%;
+}
+#forms .description{
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+    padding-left: 0;
+}
+#forms .description .textarea{
+    width: 85%;
+    height: 5.5rem;
+}
+#forms .drop-downs{
+    // border: solid 1px black;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#forms .drop-downs .label{
+    padding-left: 4px;
+}
+#forms .drop-downs .has-icons-left{
+    padding-top: 5px;
+}
+#forms .drop-downs .select{
+    padding: 4px;
+}
+#forms .field{
+    padding-top: 15px;
+}
+#forms .field .label{
+    padding-bottom: 5px;
+}
+#forms .field .file-label{
+    // border: 1px solid black;
+    width: 80%;
+    height: 80%;
+}
+#forms .field hr{
+    margin-top: 0;
+    padding-top: 0;
+    width: 85.4%;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+#forms .field .is-warning{
+    margin-top: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: orange;
+}
+#forms .field .is-light{
+    color: black;
+    border: solid 1px grey;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 // #forms .form-inputs{
 //     display: flex;
 //     width: 75%;
